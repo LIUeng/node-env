@@ -6,7 +6,7 @@ export const {
   terminalIntegration,
   // watchConfigFiles,
   showAutoSwitchNotification
-} = defineConfigs('node-env', {
+} = defineConfigs('node-env-pro', {
   autoDetectVersion: 'boolean',
   autoSwitch: 'boolean',
   terminalIntegration: 'boolean',

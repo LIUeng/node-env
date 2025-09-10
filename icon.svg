@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#68A063" stroke="#4A7C59" stroke-width="2"/>
+  
+  <!-- Main N letter -->
+  <text x="64" y="75" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">N</text>
+  
+  <!-- Circular arrows indicating version switching -->
+  <g transform="translate(64,64)">
+    <!-- Top arrow -->
+    <path d="M 0,-45 A 45,45 0 0,1 31.8,-31.8" stroke="white" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <!-- Bottom arrow -->
+    <path d="M 0,45 A 45,45 0 0,1 -31.8,31.8" stroke="white" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+    </marker>
+  </defs>
+  
+  <!-- PRO badge -->
+  <rect x="85" y="15" width="28" height="12" rx="6" fill="#2D5A3D"/>
+  <text x="99" y="24" font-family="Arial, sans-serif" font-size="8" font-weight="bold" text-anchor="middle" fill="white">PRO</text>
+</svg>

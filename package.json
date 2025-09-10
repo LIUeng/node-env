@@ -1,21 +1,27 @@
 {
-  "publisher": "liueng0814@gmail.com",
-  "name": "node-env",
-  "displayName": "node-env",
+  "publisher": "liueng",
+  "name": "node-env-pro",
+  "displayName": "Node Env Pro",
+  "description": "Professional Node.js version management for VSCode with automatic detection, intelligent terminal integration, and support for NVM, N version managers across Windows, macOS, and Linux platforms.",
+  "icon": "icon.png",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/LIUeng/node-env-pro"
+  },
   "author": {
     "name": "LIUeng",
     "email": "liueng0814@gmail.com",
-    "url": "https://github.com/LIUeng/node-env"
+    "url": "https://github.com/LIUeng"
   },
   "main": "./dist/extension.cjs",
   "engines": {
-    "vscode": "^1.89.0"
+    "vscode": "^1.101.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -24,22 +30,22 @@
     "configuration": {
       "title": "Node Environment",
       "properties": {
-        "node-env.autoSwitch": {
+        "node-env-pro.autoSwitch": {
           "type": "boolean",
           "default": true,
           "description": "Automatically switch Node.js version when opening projects"
         },
-        "node-env.terminalIntegration": {
+        "node-env-pro.terminalIntegration": {
           "type": "boolean",
           "default": true,
           "description": "Enable terminal integration for Node.js version switching"
         },
-        "node-env.autoDetectVersion": {
+        "node-env-pro.autoDetectVersion": {
           "type": "boolean",
           "default": true,
           "description": "Automatically detect project Node.js version from config files"
         },
-        "node-env.showAutoSwitchNotification": {
+        "node-env-pro.showAutoSwitchNotification": {
           "type": "boolean",
           "default": false,
           "description": "Show notification when automatically switching Node.js version in terminal"
@@ -51,11 +57,13 @@
     "build": "tsdown --env.NODE_ENV production",
     "dev": "tsdown --watch ./src --env.NODE_ENV development",
     "typecheck": "tsc --noEmit",
-    "vscode:prepublish": "pnpm run build"
+    "vscode:prepublish": "pnpm run build",
+    "vscode:publish": "vsce publish"
   },
   "devDependencies": {
     "@types/node": "22.x",
     "@types/vscode": "^1.101.0",
+    "@vscode/vsce": "^3.6.0",
     "reactive-vscode": "^0.3.1",
     "tsdown": "^0.12.8",
     "typescript": "^5.8.3"

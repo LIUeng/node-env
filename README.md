@@ -1,6 +1,6 @@
 # Node Env - VSCode Extension
 
-[EN DOCS](./README.en.md)
+[[EN Docs]](https://github.com/LIUeng/node-env/blob/main/README.en.md)
 
 一个智能的 Node.js 版本管理 VSCode 扩展，支持自动检测和切换项目所需的 Node.js 版本。
 
@@ -52,15 +52,15 @@ npm install -g n
 
 | 配置项                                | 类型    | 默认值  | 描述                                |
 | ------------------------------------- | ------- | ------- | ----------------------------------- |
-| `node-env.autoSwitch`                 | boolean | `true`  | 打开项目时自动切换 Node.js 版本     |
-| `node-env.terminalIntegration`        | boolean | `true`  | 启用终端集成功能                    |
-| `node-env.autoDetectVersion`          | boolean | `true`  | 自动从配置文件检测项目 Node.js 版本 |
-| `node-env.showAutoSwitchNotification` | boolean | `false` | 自动切换版本时显示通知              |
+| `node-env-pro.autoSwitch`                 | boolean | `true`  | 打开项目时自动切换 Node.js 版本     |
+| `node-env-pro.terminalIntegration`        | boolean | `true`  | 启用终端集成功能                    |
+| `node-env-pro.autoDetectVersion`          | boolean | `true`  | 自动从配置文件检测项目 Node.js 版本 |
+| `node-env-pro.showAutoSwitchNotification` | boolean | `false` | 自动切换版本时显示通知              |
 
 ### 配置方法
 
 1. 打开 VSCode 设置 (`Ctrl+,` 或 `Cmd+,`)
-2. 搜索 "node-env"
+2. 搜索 "node-env-pro"
 3. 根据需要调整配置项
 
 ## 📁 支持的配置文件
@@ -121,8 +121,8 @@ nodejs 18.17.0
 如果需要禁用自动切换：
 
 1. 打开设置
-2. 将 `node-env.autoSwitch` 设置为 `false`
-3. 将 `node-env.terminalIntegration` 设置为 `false`
+2. 将 `node-env-pro.autoSwitch` 设置为 `false`
+3. 将 `node-env-pro.terminalIntegration` 设置为 `false`
 
 ## 🔍 支持的版本管理器
 
@@ -209,8 +209,8 @@ n ls
 
 **解决方案：**
 
-- 检查 `node-env.terminalIntegration` 设置
-- 确认 `node-env.autoSwitch` 已启用
+- 检查 `node-env-pro.terminalIntegration` 设置
+- 确认 `node-env-pro.autoSwitch` 已启用
 - 查看 VSCode 开发者控制台的错误信息
 
 #### 4. 配置文件未被识别
@@ -246,7 +246,7 @@ n ls
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+本项目采用 MIT 许可证 - 查看 [LICENSE](https://github.com/LIUeng/node-env/blob/main/LICENSE) 文件了解详情。
 
 ## 🙏 致谢
 

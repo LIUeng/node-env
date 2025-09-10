@@ -4,7 +4,7 @@
 
 ```json
 {
-  "node-env.watchConfigFiles": {
+  "node-env-pro.watchConfigFiles": {
     "type": "boolean",
     "default": true,
     "description": "Watch for changes in Node.js version config files"

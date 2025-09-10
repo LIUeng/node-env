@@ -50,15 +50,15 @@ You can configure the following options in VSCode settings:
 
 | Configuration                         | Type    | Default | Description                                    |
 | ------------------------------------- | ------- | ------- | ---------------------------------------------- |
-| `node-env.autoSwitch`                 | boolean | `true`  | Automatically switch Node.js version on open  |
-| `node-env.terminalIntegration`        | boolean | `true`  | Enable terminal integration functionality      |
-| `node-env.autoDetectVersion`          | boolean | `true`  | Auto-detect project Node.js version from files|
-| `node-env.showAutoSwitchNotification` | boolean | `false` | Show notification when auto-switching versions|
+| `node-env-pro.autoSwitch`                 | boolean | `true`  | Automatically switch Node.js version on open  |
+| `node-env-pro.terminalIntegration`        | boolean | `true`  | Enable terminal integration functionality      |
+| `node-env-pro.autoDetectVersion`          | boolean | `true`  | Auto-detect project Node.js version from files|
+| `node-env-pro.showAutoSwitchNotification` | boolean | `false` | Show notification when auto-switching versions|
 
 ### Configuration Method
 
 1. Open VSCode Settings (`Ctrl+,` or `Cmd+,`)
-2. Search for "node-env"
+2. Search for "node-env-pro"
 3. Adjust configuration items as needed
 
 ## 📁 Supported Configuration Files
@@ -119,8 +119,8 @@ nodejs 18.17.0
 If you need to disable automatic switching:
 
 1. Open Settings
-2. Set `node-env.autoSwitch` to `false`
-3. Set `node-env.terminalIntegration` to `false`
+2. Set `node-env-pro.autoSwitch` to `false`
+3. Set `node-env-pro.terminalIntegration` to `false`
 
 ## 🔍 Supported Version Managers
 
@@ -207,8 +207,8 @@ n ls
 
 **Solutions:**
 
-- Check `node-env.terminalIntegration` setting
-- Confirm `node-env.autoSwitch` is enabled
+- Check `node-env-pro.terminalIntegration` setting
+- Confirm `node-env-pro.autoSwitch` is enabled
 - Check VSCode Developer Console for error messages
 
 #### 4. Configuration File Not Recognized

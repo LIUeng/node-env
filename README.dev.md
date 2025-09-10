@@ -1,6 +1,6 @@
-# node-env
+# node-env-pro
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/liueng.node-env)](https://marketplace.visualstudio.com/items?itemName=liueng.node-env) [![Installs](https://img.shields.io/visual-studio-marketplace/i/liueng.node-env)](https://marketplace.visualstudio.com/items?itemName=liueng.node-env) [![Reactive VSCode](https://img.shields.io/badge/Reactive-VSCode-%23007ACC?style=flat&labelColor=%23229863)](https://kermanx.github.io/reactive-vscode/)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/liueng.node-env-pro)](https://marketplace.visualstudio.com/items?itemName=liueng.node-env-pro) [![Installs](https://img.shields.io/visual-studio-marketplace/i/liueng.node-env-pro)](https://marketplace.visualstudio.com/items?itemName=liueng.node-env-pro) [![Reactive VSCode](https://img.shields.io/badge/Reactive-VSCode-%23007ACC?style=flat&labelColor=%23229863)](https://kermanx.github.io/reactive-vscode/)
 
 A VS Code extension created with [Reactive VS Code](https://kermanx.github.io/reactive-vscode/).
 
