@@ -4,14 +4,14 @@
 
 ## 背景
 
-开发项目的过程中，是否遇到
+开发工作的过程中，是否遇到
 
 - 效率
 - 业务代码
 - 扩展
 - ...
 
-等等一些问题的瓶颈，想自己开发一些其他的项目来提升编程的多样性
+等等一些开发的瓶颈，想自己拓展一些其他的项目提升编程的多样性
 
 ## 插件目标
 
@@ -150,9 +150,9 @@ pnpm create reactive-vscode
 
 ```mermaid
 flowchart TB
-    A[启动 VSCode] --> B{是否启动终端}
-    B --> |"是"| C[立即执行，支持多个终端]
-    B --> |"否"| D[暂不执行]
+    A["启动 VSCode"] --> B{"是否启动终端"}
+    B -- "是" --> C["立即执行，支持多个终端"]
+    B -- "否" --> D[暂不执行]
     D --> E["打开终端，触发执行"]
     C --> F["切换的 Node 版本"]
     E --> F
@@ -296,4 +296,5 @@ terminal.sendText(command);
 附
 
 [Node Env Pro 代码地址](https://github.com/LIUeng/node-env)
+
 [Node Env Pro 自动切换 Node 版本插件地址](https://marketplace.visualstudio.com/items?itemName=LIUeng.node-env-pro)
